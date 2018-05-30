@@ -208,16 +208,19 @@ body, html {
 }
 </style>
 
+
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="index.html#home" class="w3-bar-item w3-button w3-wide scroll" style="font-family: 'Fredoka One', cursive;">DREAM IMPRESSIONS</a>
+    <a href="#home" rel="tag" class="w3-bar-item w3-button w3-wide scroll" style="font-family: 'Fredoka One', cursive;">DREAM IMPRESSIONS</a>
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
-      <a href="index.html#home" class="w3-bar-item w3-button scroll"><i class="fa fa-home" style="text-decoration: none"></i>  Home</a>
-      <a href="index.html#about" class="w3-bar-item w3-button scroll"><i class="fa fa-user"></i>  About us</a>
-      
-      <a href="index.html#contact" class="w3-bar-item w3-button scroll"><i class="fa fa-envelope"></i>  Contact Us</a>
+      <a href="#home" rel="tag" class="w3-bar-item w3-button scroll"><i class="fa fa-home" style="text-decoration: none"></i>  Home</a>
+      <a href="#about" rel="tag" class="w3-bar-item w3-button scroll"><i class="fa fa-user"></i>  About us</a>
+      <a href="#servicesour" rel="tag" class="w3-bar-item w3-button scroll"><i class="fa fa-th"></i>  Services</a>
+      <a href="#ourprod" rel="tag" class="w3-bar-item w3-button scroll"><i class="fa fa-usd"></i>  Products</a>
+      <a href="#clientsss" rel="tag" class="w3-bar-item w3-button scroll"><i class="fa fa-envelope"></i>  Clients</a>
+      <a href="#contact" rel="tag" class="w3-bar-item w3-button scroll"><i class="fa fa-envelope"></i>  Contact Us</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -226,6 +229,7 @@ body, html {
     </a>
   </div>
 </div>
+
 
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
@@ -362,9 +366,8 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
   
 </footer>
-
 <script type="text/javascript">
-	
+  
 // Modal Image Gallery
 function onClick(element) {
   document.getElementById("img01").src = element.src;
